@@ -26,14 +26,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
-```
-getvideoList: function(criteria) {
-      return $http.get(webapi + "/uccaVideos?" + $httpParamSerializer(criteria)).then(res => res.data);
-    },
-getVideoById: function(id) {
-      return $http.get(webapi + "/uccaVideos/" + id).then(res => res.data);
-    }
-```
