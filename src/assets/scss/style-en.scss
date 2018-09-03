@@ -1,0 +1,341 @@
+.en-style {
+  font-family: 'MetricSemibold',Arial, Helvetica, sans-serif;
+  .nav-menu>li {
+    font-size: 24px;
+    margin-left: 15px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .nav-submenu>li>a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .visit {
+    .v1 {
+      letter-spacing: initial;
+      font-size: 28px;
+     padding-top: 19px;
+    }
+    .v2-left-hd,.v2-left-ft {
+      letter-spacing: initial;
+      font-size: 21px;
+      line-height: 21px;
+    }
+    .v2-right{
+      margin-left: 17px;
+      .v2-right-hd{
+         margin-top: 6px;
+      }
+    }
+    .v2-right-ft {
+      font-size: 11px;
+      margin-top: -1px;
+      font-family: 'metric-regular',Arial, Helvetica, sans-serif;
+    }
+    .v3{
+      .v3-title{
+        font-size: 14px;
+      }
+      form{
+        margin-top: 6px;
+      }
+      .v3-content{
+        input{
+          font-weight: bold;
+          line-height: 33px;
+          font-size: 15px;
+        }
+      }
+    } 
+    .v4 {
+      font-size: 18px;
+      line-height: 17px;
+    }
+    .v5{
+      margin-top: 10px;
+      a{
+        font-size: 14px;
+        line-height: 18px;
+        display: inline-block;
+      }
+    }
+  }
+  .activity-item_list .activity-item_ft a {
+    letter-spacing: initial;
+    font-size: 15px;
+  }
+  .jump-list> ul>li {
+    letter-spacing: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .exdetail-title_right .exdetail-addr {
+    font-size: 24px;
+  }
+  .exdetail-intro .exdetail-intro_left {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .exdetail-intro .exdetail-intro_right {
+    font-family: 'metric-regular',Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .site-item {
+    a {
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #999;
+    }
+  }
+  .ft-membership {
+    background: url(../img/bg-membership.png) 0px 0px no-repeat;
+  }
+  .menu-main-container{
+    margin-top: 9px;
+    height: 36px;
+  }
+  .main-content{
+    padding-top: 0;
+  }
+  .header{
+    .nav-submenu{
+      height: 33px !important;
+      > li{
+        line-height: 24px;
+      }
+    }
+  } 
+  .header-content{
+    .header-content-right{
+      min-width: 400px;
+      height: 60px;
+    }
+    .hcontent-right_info{
+      .header-sns{
+        height: 20px;
+      }
+      .worda {
+        height: 30px;
+        margin-top: 5px;
+        margin-bottom: 1px;
+        a{
+          font-size: 25px;
+          .font-en-bold{
+            font-size: 25px;
+            font-family: 'MetricSemibold',Arial, Helvetica, sans-serif;
+          }
+        }
+      }
+      .h-sns-list > li > a{
+        font-size: 15px;
+      }
+      .h-sns-list > li.lan{
+          margin-top: 2px;
+        > a{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .win-main .banner-list .banner-txt .banner-txt_hd{
+    font-size: 42px;
+  }
+  .hot-list > li .hot-caption a{
+    font-size: 24px;
+  }
+  .project-wrap .project-img{
+    margin-top: 4px;
+  }
+  .project-wrap .project-info .project-info-title a{
+    font-size: 20px;
+  }
+  .project-wrap .project-info .project-info-content a{
+    font-size: 20px;
+  }
+  .common-title{
+    font-size: 42px;
+    padding-top: 28px;
+    padding-bottom: 18px;
+  }
+  .service-detail{
+    p{
+      width: 750px;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 18px;
+      color: #000;
+    }
+  }
+  .activity-item .activity-item_hd .activity-item_title{
+    font-size: 24px !important;
+    overflow: unset !important;
+  }
+  .cat-list ul > li > a,
+  .date-list .date-all{
+      font-family: 'MetricSemibold',Arial, Helvetica, sans-serif;
+  }
+  .cat-list ul > li > a{
+    font-size: 15px;
+  }
+  .wordg, .wordg *{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    color: #000;
+  }
+  .shop-info .shop-day{
+      font-size: 14px;
+      margin-top: 0px;
+      height: 10px;
+    a,span{
+      font-size: 14px;
+      font-family: 'MetricSemibold',Arial, Helvetica, sans-serif;
+      color: #000;
+      height: 10px;
+    }
+  }
+  .shop-phone,.shop-weibo span, .shop-wechat span, .shop-taobao a{
+      font-size: 14px !important;
+      font-family: 'MetricSemibold',Arial, Helvetica, sans-serif;
+
+  }
+  .shop-info .shop-contact{
+        margin-top: 0;
+  }
+  .shop-banner{
+    margin-top: 10px;
+  }
+  .calendar-title{
+    font-size: 42px;
+  }
+  .closed-date{
+    font-size: 35px;
+  }
+  .cat-select{
+    margin-bottom: 0;
+  }
+  .video-item .video-item_hd .video-item_title{
+    font-size: 24px !important;
+    overflow: unset !important;
+  }
+  .exdetail-title_left{
+    font-size: 42px;
+  }
+  .eitem-title .eitem-title_left{
+    font-size: 38px;
+  }
+  .prdetail-content_right{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .en-style {
+    .mcreative-wrap.mobile-common_wrap {
+      margin-top: 80px;
+    }
+    .mobile-navmenu > ul > li > a {
+      font-family: 'MetricSemibold';
+    }
+    .win-main .mbanner-item .mbanner-item_title {
+      font-family: 'MetricSemibold';
+    }
+    .win-main .mhot-wrap .mhot-item_title {
+      font-family: 'MetricSemibold';
+      font-size: 14px;
+    }
+    .mobile-navmenu > ul > li.active .nav-submenu > li > a {
+      font-family: 'metric-regular';
+    }
+    .mobile-navmenu > ul > li.hide-navitem .nav-submenu > li > a {
+      font-family: 'metric-regular';
+    }
+    .win-main .mobile-common_title {
+      font-family: 'MetricSemibold';
+    }
+    .activity-item .mactivity-item_hd .activity-item_title {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-title {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-date {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-content .mexdetail-content_intro {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .mexdetail-works .mexdetail-works_title {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-works .mexdetail-works_list .mexdetail-works_item .ework-item_art {
+      font-family: 'MetricSemibold';
+    }
+    .win-main .mexdetail-show_more div {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-program_list .mexdetail-program_item .mexdetail-program_title {
+      font-family: 'MetricSemibold';
+    }
+    .mprogram-item .mactivity-item_right .mprogram-item_title {
+      font-family: 'MetricSemibold';
+    }
+    .mprdetail-content .mprdetail-content_info {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .mprdetail-stage_list .mprdetail-stage_title {
+      font-family: 'MetricSemibold';
+    }
+    .mobile-shop_title {
+      font-family: 'MetricSemibold';
+    }
+    .mshop-open_time .mshop-open_title {
+      font-family: 'MetricSemibold';
+    }
+    .mshop-open_time .mshop-open_info {
+      font-family: 'MetricSemibold';
+    }
+    .mshop-other .mshop-other_title {
+      font-family: 'MetricSemibold';
+    }
+    .mshop-other .shop-rec_title {
+      font-family: 'MetricSemibold';
+    }
+    .shop-item .shop-item_title {
+      font-family: 'MetricSemibold';
+    }
+    .shop-item .shop-item_ft .pro-price {
+      font-family: 'MetricSemibold';
+    }
+    .weshare > div p {
+      font-family: 'MetricSemibold';
+    }
+    .mcalendar-other .mcalendar-rec_title {
+      font-family: 'MetricSemibold';
+    }
+    .mcalendar-other .mcalendar-rec_content .mcalendar-rec_name {
+      font-family: 'MetricSemibold';
+    }
+    .mcalendar-title {
+      font-family: 'MetricSemibold';
+    }
+    .mcalendar-hour {
+      font-family: 'MetricSemibold';
+    }
+    .mobile-nav_submenu ul > li > a {
+      font-family: 'metric-regular';
+    }
+    .mobile-nav_submenu ul {
+      margin-top: 11px;
+    }
+    .service-detail p {
+      width: 100%;
+    }
+    .msupport-member_list .msupport-member_item .msupport-member_name p {
+      font-family: 'MetricSemibold';
+    }
+    .mexdetail-video_list .mexdetail-video_item .mexdetail-video_time {
+      font-family: 'MetricSemibold';
+    }
+  }
+}

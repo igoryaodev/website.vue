@@ -1,0 +1,34 @@
+@media screen and (max-width:767px) {
+	.maboutus-wrap{
+		img{
+			max-width: 100%;
+		}
+		p{
+		    text-align: justify !important;
+    		max-width: 100%;
+		}
+		ul{
+			padding: 0 !important;
+		}
+	}
+	.mcareer-wrap{
+		.tleft{
+			max-width: 100% !important;
+		}
+		.col-md-6.col-xs-6{
+			width: 100% !important;
+		    margin: 10px 0;
+		}
+		.position-table{
+			.table{
+				th,td{
+					display: none;
+				}
+				th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){
+					display: table-cell;
+				}
+
+			}
+		}
+	}
+}
